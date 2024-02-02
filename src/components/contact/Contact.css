@@ -1,0 +1,147 @@
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 100px;
+}
+
+.contactLeft {
+    color: white;
+    display: flex;
+    flex: 0.5;
+    flex-direction: column;
+    width: 100%;
+}
+
+.contactLeft>span {
+    font-size: 50px;
+}
+
+.contactLeft>p {
+    margin-top: 20px;
+}
+
+.contactLeft>span>p {
+    display: inline;
+    font-weight: 600;
+    font-size: 70px;
+}
+
+.contactRight {
+    width: 100%;
+    color: white;
+    display: flex;
+    flex: 0.45;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(142, 244, 246, 0.717);
+
+}
+
+.contactRight>h1 {
+    margin: auto;
+    padding: 0px 30px;
+    margin-top: 50px;
+
+}
+
+.contactRight>p {
+    margin: auto;
+    padding: 0px 30px;
+
+}
+
+.contactRight>form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px;
+    padding-bottom: 20px;
+}
+
+.contactRight>form>input {
+
+    padding: 10px;
+    outline: none;
+    font-size: 20px;
+    background-color: transparent;
+    margin: 20px 0px;
+    color: White;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.contactRight>form>button {
+
+    width: 150px;
+    padding: 10px;
+    border: none;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.contactRight>form>button:hover {
+
+    cursor: pointer;
+    background-color: rgba(142, 244, 246, 0.717);
+    color: white;
+}
+
+.contactRight>form>input::placeholder {
+    color: whitesmoke;
+}
+
+.stats {
+    color: white;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 992px) {
+    .contact {
+        flex-direction: column;
+        margin-top: 250px;
+        justify-content: space-between;
+        padding: 20px;
+    }
+
+    .contactLeft>span {
+        text-align: center;
+    }
+
+    .contactLeft>p {
+        text-align: center;
+    }
+
+    .contactLeft>span>p {
+        display: inline;
+        font-weight: 600;
+        font-size: 70px;
+    }
+
+    .contactRight {
+        margin-top: 50px;
+    }
+
+    .stats {
+        flex-direction: column;
+        justify-content: space-between;
+
+        width: 100%;
+    }
+    
+
+}
+
+@media screen and (max-width: 1240px) {
+    .stats{
+        align-items: center;
+        width: 100%;
+    }
+}

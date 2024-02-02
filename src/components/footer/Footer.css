@@ -1,0 +1,122 @@
+@keyframes fadeInAnimation {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.footer{
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(16, 16, 16);
+    margin-top: 200px;
+}
+.footer  > hr{
+    color: white;
+    margin: 0px 100px;
+}
+.footerTop{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 50px 0px;
+}
+.footerCard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 60px;
+}
+.footerCardText{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.footerBottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 50px 100px;
+}
+.footerLinks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex: 0.5;
+}
+.copyright {
+    display: flex;
+    flex: 0.5;
+    font-size: 20px;
+}
+.footerButton > button {
+    background: none;
+    color: rgba(142, 244, 246, 1);
+    outline: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+.footerButton > button:hover {
+    color: rgba(142, 244, 246, 0.717);
+    outline: none;
+    cursor: pointer;
+    
+}
+@media screen and (max-width: 992px) {
+    .footer{
+        
+        height: 140vh;
+    }
+    .footerTop{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footerBottom {
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .copyright {
+        display: flex;
+        flex: 0.5;
+        font-size: 20px;
+        text-align: center;
+    }
+    .footerLinks{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 30px 0px;
+    }
+    .footerCard{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 60px;
+        padding: 30px 30px;
+    }
+    .footerCardText{
+        text-align: left;
+        margin-left: 20px;
+        font-size: 20px;
+    }
+    .footer > hr{
+        color: white;
+        margin: 0px 90px;
+    }
+    .footerButton > button {
+        padding: 10px 0px;
+    }
+    .footerButton {
+        text-align: center;
+    }
+}

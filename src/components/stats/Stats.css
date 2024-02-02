@@ -1,0 +1,22 @@
+
+.statsContainer{
+    text-align: center;
+    background-color: rgba(142, 244, 246, 0.717);
+    height: 20vh;
+    flex-direction: column;
+    justify-content: end;
+    width: 250px;
+    align-items: center;
+}
+.statsContainer > h1{
+    margin-top: 20px;
+    flex: 0.5;
+}
+
+@media screen and (max-width: 992px) {
+    .statsContainer{
+        margin: 30px 0px;
+        align-items: center;
+        width: 100%;
+    }
+}

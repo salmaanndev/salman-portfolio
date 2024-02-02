@@ -1,0 +1,99 @@
+.tasklist {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px 60px;
+    height: auto;
+    width: 50%;
+}
+.tasklist > h1 {
+    color: white;
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 40px;
+}
+.taskList{
+    display: flex;
+    justify-content: center;
+}
+
+.taskForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.taskForm>h1 {
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+.taskForm>input {
+    color: white;
+    border: 2px solid rgba(142, 244, 246, 0.717);
+    background: transparent;
+    outline: none;
+    padding: 20px;
+    margin: 20px 0px;
+    font-size: 25px;
+}
+
+.taskForm>input::placeholder {
+    color: rgba(142, 244, 246, 0.717);
+    background: transparent;
+    font-size: 25px;
+}
+
+.taskForm>button {
+    color: rgba(142, 244, 246, 0.717);
+    border: 2px solid rgba(142, 244, 246, 0.717);
+    background: transparent;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.taskForm>button:hover {
+    color: white;
+    background: rgba(142, 244, 246, 0.717);
+}
+
+.tasks>h1 {
+    color: white;
+    margin-top: 50px;
+    border-bottom: 2px solid white;
+}
+
+.task {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+
+.task>p {
+    color: white;
+    margin: 20px 0px;
+    color: rgba(142, 244, 246, 0.717);
+    font-size: 25px;
+}
+
+.task>button {
+    font-size: 30px;
+    background-color: transparent;
+    border: 1px solid rgb(147, 24, 24);
+    color: rgb(147, 24, 24);
+    cursor: pointer;
+}
+
+.task>button:hover {
+    background-color: rgb(147, 24, 24);
+    color: white;
+}
+
+@media screen and (max-width: 992px) {
+    .tasklist {
+        padding: 20px;
+        width: 100%;
+    }
+}

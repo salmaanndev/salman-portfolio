@@ -1,0 +1,77 @@
+
+
+
+.scrolled {
+    opacity: 0;
+  }
+.card{
+    align-items: center;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+.cardBody{
+    color: white;
+    text-align: center;
+    width: 250px;
+    padding: 0px;
+    border: 2px solid gainsboro;
+}
+.cardBody> img {
+    margin-top: -100px;
+    width: 100px;
+}
+.cardBody> h2 {
+    padding: 10px;
+}
+.cardBody> p {
+    padding: 10px;
+}
+.servicesBody {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+.services{
+    padding: 50px 0px;
+}
+.services >h1{
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.services >p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 60px;
+}
+@media screen and (max-width: 992px) {
+    .card{
+        margin-top: -40px;
+        padding-bottom: 150px;
+        padding-top: 50px;
+    }
+    .cardBody{
+        padding: 30px;
+    }
+    .cardBody> h2 {
+        padding: 10px;
+        font-size: 40px;
+    }
+    .cardBody> p {
+        padding: 10px;
+        font-size: 20px;
+    }
+    .services >  {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .servicesBody {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
