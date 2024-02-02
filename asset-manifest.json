@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/salman-portfolio/static/css/main.5295480c.css",
+    "main.js": "/salman-portfolio/static/js/main.ad00b99d.js",
+    "index.html": "/salman-portfolio/index.html",
+    "main.5295480c.css.map": "/salman-portfolio/static/css/main.5295480c.css.map",
+    "main.ad00b99d.js.map": "/salman-portfolio/static/js/main.ad00b99d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5295480c.css",
+    "static/js/main.ad00b99d.js"
+  ]
+}
